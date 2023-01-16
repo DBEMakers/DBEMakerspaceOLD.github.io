@@ -33,6 +33,17 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+            options: [
+              {
+                value: "page",
+                label: "default",
+              },
+            ],
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

@@ -9,8 +9,6 @@ halfgrid:
         The DBE Makerspace is a creative learning space for students across Design and Built Environment located within B418. The tech team support students and staff with technical resources, areas, and equipment, including technical supervision and instruction, operation, and maintenance. We ensure everyone receives safety inductions, instruction, and guidance
       content2: <img src="/assets/images/makerspace_default_img.jpg" alt="DBE Makerspace">
 ---
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 
 # About Us
 

@@ -1,12 +1,10 @@
 ---
 layout: page
 title:  Gradfest 2022
-parent: Exhibitions
+parent: 2022
+grand_parent: Exhibitions
 child_nav_order: desc
 ---
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
 # Gradfest
 {: .mb-3}

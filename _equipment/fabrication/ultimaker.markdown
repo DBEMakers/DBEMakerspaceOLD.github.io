@@ -13,6 +13,19 @@ card:
   - title: Ultimaker S5
     image: /assets/images/equipment/S5.jpg
 
+halfgrid: 
+    - content1: |
+        <h3> Check list </h3>
+        <ol type="1">
+           <li>Check for Non-Manifold Errors </li>
+           <li>Check for Naked Edges</li>
+           <li>Fill/ Cap Holes</li>
+           <li>Unify Normals</li>
+           <li>Convert your model to a Mesh</li>
+           <li>Export your model as a .stl file</li>
+        </ol>  
+        
+      content2: <img src="/assets/images/equipment/ccc.JPG" alt="settings to alter" style="display:block;margin-left:auto;margin-right:auto;">
 
 ---
 
@@ -74,18 +87,35 @@ Common issues with 3D printing occur due to bad geometry, please make sure you c
 
 | Error Type | What this is?              | What does it causes?            | How do you fix it?              |
 |:-----------|:---------------------------|:--------------------------------|:--------------------------------|
-| **Non Manifold Geometry**  |  When an objects has edges that are not totally connected or objects with added faces. The object does not have volume. | Doing this causes some or all of the model to have no volume making it impossible to print. | Geometry must be fully enclosed, and only 2 faces may share an edge.
+| **Non Manifold Geometry**  |  When an objects has edges that are not totally connected or objects with added faces. The object does not have volume. | Doing this causes some or all of the model to have no volume making it impossible to print. | Geometry must be fully enclosed (watertight), and only 2 faces may share an edge.
 | **Non Unified Faces**      | When an mesh's faces (normals) are not all facing in the correct direction.  | Doing this cases printing software to not understand what is inside or outside the model leading to unexpected results. | Check that your face's normals are all facing the correct direction. |
 | **Support Issues**      | When there are not enough support structures to print parts of an object in mid-air. | Without supports, your object may fail to print and break apart. | Supports can be added during the printing process but it is also recommended you support anything over a 45 degree angle or to print your object in multiple pieces you glue after printing. |
 
+---
 
+{% include halfgrid.html %}
+{: .mb-6}
+
+---
+
+![Non-Manifold / Bad Geometry](/assets/images/equipment/non-manifold (1).jpg)  
+{: .mt-6}
 
 --- 
 ## Documentation
 
+[STL Files Preparation](https://www.3dnest.in/blog/how-to-create-3dprintready-designs){: .btn .btn-primary } [FDM Design guide](https://cdn2.hubspot.net/hubfs/340051/Design_Guides/Xometry_DesignGuide_FDM.pdf){: .btn .btn-primary } [Printing Troubleshooting](https://www.simplify3d.com/resources/print-quality-troubleshooting/){: .btn .btn-primary }
+<br>
+
 ### Setting up your model in Rhino
 <iframe width="100%" height="415" src="https://www.youtube-nocookie.com/embed/o0rJlxwbr4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+#### Constraints  
+<iframe width="100%" height="415" src="https://www.youtube-nocookie.com/embed/xiIOoX714Qs?start=646" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### Best practices
+<iframe width="100%" height="415" src="https://www.youtube-nocookie.com/embed/xiIOoX714Qs?start=926" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

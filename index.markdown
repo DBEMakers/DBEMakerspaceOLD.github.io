@@ -24,6 +24,7 @@ card:
     image: /assets/images/speech-bubble.svg
     content: For questions and support from the technicians, <br> click here.
 
+
 # Accordion Structure
 accordion: 
   - title: Is this the library Makerspace?
@@ -91,35 +92,100 @@ accordion:
       <strong>Material Capacity:</strong> 500 x 300 x 50mm
     
       Laser cutting cannot be done overnight and require supervision by the user at all times. A technician is also required to be in line of sight at all times. An induction is required before use.
----
-<!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<link href='/assets/css/main.css' rel='stylesheet' />
-<script src='/assets/js/main.js'></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      // no plugin config required!
-    });
-    let calendar = new Calendar(calendarEl, {
-      plugins: [ googleCalendarPlugin ],
-      googleCalendarApiKey: 'AIzaSyD8v_E4AlI_MDvSkrCYsaVyEhMEDnt-mwo',
-      events: {
-       googleCalendarId: 'https://calendar.google.com/calendar/embed?src=280706j%40curtin.edu.au&ctz=Australia%2FPerth'
-      }
-    });
-    calendar.render();
-  });
-</script> 
+
+      
+halfgrid: 
+    - content1: |
+        <ul> 
+          <li> 3D printers </li>
+          <li> 3D laser scanners </li>
+          <li> laser cutters </li>
+          <li> so much more! </li>
+        </ul>
+      content2: |
+        <ul>
+          <li> Arduino circuit boards </li> 
+          <li> VR headsets </li>
+          <li> Motion Capture </li>
+        </ul>
+--- 
 
 # DBE Makerspace
 
 Welcome to B418 Makerspace, your one stop for all information about the 418:114 Makerspace and equipment within B418. Please click on one of the links below to be redirected to our most common questions or click on the options to your left for further options.
-<br>
-<br>
+
 
 {% include cards.html %}
+{: .mt-2}
+
+---
+
+## Do we provide?
+
+The DBE Makerspace offers many resources available for booking from staff and students. Some equipment can even be booked home for use. This includes:
+
+{% include halfgrid.html %}
+
+<h2 class="pb-2 border-bottom">Icon grid</h2>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+  <div class="col d-flex align-items-start">
+    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+    <div>
+      <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading.</p>
+    </div>
+  </div>
+</div>
 
 <!-- <h2>Calendar</h2>
 <p>Want to know what's happening at the Makerspace? Find out below:
@@ -128,11 +194,15 @@ Welcome to B418 Makerspace, your one stop for all information about the 418:114 
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=280706j%40curtin.edu.au&ctz=Australia%2FPerth" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
+---
+{: .mb-6}
 
 ## FAQ
 Find some of our most common questions for the DBE Makerspace here.
 
 {% include accordion.html %}
+
+---
 
 ## Contact Us
 Want to know what's happening at the Makerspace? Find out below

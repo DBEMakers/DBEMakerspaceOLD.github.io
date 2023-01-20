@@ -4,7 +4,8 @@ title:  "20|30 Retrospective"
 date:   2022-10-17 08:30:54 +0800
 categories: Exhibitions
 permalink: /2030/  
-parent: Exhibitions
+parent: 2022
+grand_parent: Exhibitions
 
 carousel:
     - image: /assets/images/exhibitions/2030/20220620_20_30_FASHION_&_INTERIOR_ARCHITECTURE_0003.jpg

@@ -78,17 +78,57 @@ Artec Leo is the only wireless and fully standalone professional 3D scanner desi
         execution-while-out-of-viewport
         execution-while-not-rendered
         web-share
-    ></iframe>
+></iframe>
 
-{: .note-title }
+<iframe width="100%" height="480" src="https://sketchfab.com/playlists/embed?collection=638ca15f6f3540ea8d674ffaa8bcaeec&autostart=0"
+        title="Gradfest Fasion"
+        frameborder="0"
+        allowfullscreen
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        allow="autoplay; fullscreen; xr-spatial-tracking"
+        xr-spatial-tracking
+        execution-while-out-of-viewport
+        execution-while-not-rendered
+        web-share
+></iframe>
+   
+{: .note-title  .mb-6}
 > Note
 >
 > Content may take a while to load due to being 3D. Please be patience while it loads.
 
+
 ---
 ## Animating Scans
 
-Scans must then be cleaned up. Duplicate hands for example can be removed by bridging replacement ones online.
-### Scanning
-### Clean up
-### Rigging
+If you wish to create a 3D scan of a person and have them animated, you can do so by following these steps:
+
+### 1. Scanning
+
+- Both the person scanning and person being scanned must wear protective eyewear and be supervised by a trained technician.
+- The person ebing scanned will need to hold a pose for an extended period of time (upwards of 10 minutes) so it is recommended that they have additional equipment to support them if needed. For example, if you wish to animate the users arms you will need the person to be using an "A-Pose" (arms at 45 degrees) or "T-Pose"(arms at 90 degrees) to allow for easier rigging. Tripods can be used to support the scanee's arms.
+
+![A-Pose vs T-Pose](/assets/images/equipment/a-pose_t-pose.jpg)
+
+- Make sure colour data is turned on when scanning to help with texturing the person.
+
+### 2. Clean up
+
+- Scans are uploaded to the Artec Leo software at the Makerspace for conversion. Scans are originally made as point clouds which is then converted to geometry and exported out as a texture file (e.g. a .JPG or .PNG) and a 3D file (e.g. .OJB or .FBX).
+- If you find there was excessive movement (most commonly seen in hands), export out the mesh and replace the hands with similar 3D scanned hands found online. This can be done using software such as zBrush.
+
+![Messy Fingers Geometry](/assets/images/equipment/messy_fingers.jpg)
+
+### 3. Rigging
+- For rigging and animation, there are two recommended methods:
+  1. **Mixamo** -
+    Mixamo is a free auto rigging tool created by Adobe. Simply upload your 3D model and follow the auto rigging options provided. Please follow the following link below for more information: [https://www.mixamo.com/#/](https://www.mixamo.com/#/)
+
+  2. **Rigify** -
+    Rigify is a free rigging system built into Blender. Please follow the following tutorial below for more information:
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/f2pTkW-1JkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### 4. Animation
+
+Software such as Maya, Blender or other animation software can be used for further animation.

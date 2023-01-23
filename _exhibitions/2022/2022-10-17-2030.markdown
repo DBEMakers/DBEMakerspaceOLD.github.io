@@ -15,9 +15,6 @@ carousel:
     - image: /assets/images/exhibitions/2030/20220620_20_30_FASHION_&_INTERIOR_ARCHITECTURE_0024.jpg
 
 ---
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
 # 20|30 Fashion and Interior Architecture 

@@ -562,9 +562,9 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 @media (min-width: 50rem) and (min-width: 31.25rem) { .nav-list .nav-list-item { font-size: 14px !important; } }
 
-.nav-list .nav-list-item .nav-list-link { display: block; min-height: 3rem; padding-top: 0.25rem; padding-bottom: 0.25rem; line-height: 2.5rem; padding-right: 3rem; padding-left: 1rem; }
+.nav-list .nav-list-item .nav-list-link { text-decoration: none; color: #000; display: block; min-height: 3rem; padding-top: 0.25rem; padding-bottom: 0.25rem; line-height: 2.5rem; padding-right: 3rem; padding-left: 1rem; }
 
-@media (min-width: 50rem) { .nav-list .nav-list-item .nav-list-link { min-height: 2rem; line-height: 1.5rem; padding-right: 2rem; padding-left: 2rem; } }
+@media (min-width: 50rem) { .nav-list .nav-list-item .nav-list-link {  text-decoration: none; color: #000; min-height: 2rem; line-height: 1.5rem; padding-right: 2rem; padding-left: 2rem; } }
 
 .nav-list .nav-list-item .nav-list-link.external > svg { width: 1rem; height: 1rem; vertical-align: text-bottom; }
 
@@ -584,9 +584,9 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 .nav-list .nav-list-item > .nav-list .nav-list-item { position: relative; }
 
-.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link { color: #5c5962; }
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link { text-decoration: none; color: #000;  }
 
-.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-expander { color: #5c5962; }
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-expander { text-decoration: none; color: #000;  }
 
 .nav-list .nav-list-item.active > .nav-list-expander svg { transform: rotate(-90deg); }
 

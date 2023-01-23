@@ -59,8 +59,8 @@ Reference-style:
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-| Table | Example 1 | Example 2 |
-|:-|:-|:-|:-| 
+| Table | Example 1 | Example 2 |  |
+|:------|:----------|:----------|:-| 
 | Keep adding rows with "|" to break up elements | | | | 
 
 > Blockquotes are very handy in email to emulate reply text.

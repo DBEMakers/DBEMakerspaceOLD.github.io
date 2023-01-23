@@ -1,7 +1,7 @@
 ---
 
 layout: page  
-title: 2022 
+title: "2022" 
 permalink: /2022/  
 parent: Exhibitions
 has_children: true

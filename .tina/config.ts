@@ -25,6 +25,12 @@ export default defineConfig({
         path: "_exhibitions/2023",
         //  Named 'md' and not 'markdown' as that is a depracated with Tina.io. Using 'markdown' breaks some of the features such as adding content to the body
         format: "md",
+        // defaultItem: () => {
+        //   return {
+        //     // Return a default title and the current date as the default date
+        //     layout: 'page',
+        //   }
+        // },
         // As Jekyll posts require a date at the beginning, this code automatically adds it.
         ui: {
           filename: {
@@ -39,15 +45,6 @@ export default defineConfig({
         
               return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
             }
-          }
-        },
-        // Default Content for page
-        defaultItem: () => {
-          return {
-            layout: "page",
-            // parent: "2023",
-            // grand_parent: "Exhibitions",
-            
           }
         },
         fields: [
@@ -71,7 +68,12 @@ export default defineConfig({
         label: "Equipment",
         path: "_equipment",
         format: "md",
-       
+        // defaultItem: () => {
+        //  return {
+        //     layout: "page",
+        //     grand_parent: "Equipment"
+        //  }
+        // },
         fields: [
           {
             type: "string",

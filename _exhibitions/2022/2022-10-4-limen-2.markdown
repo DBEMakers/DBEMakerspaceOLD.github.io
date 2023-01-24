@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  LIMEN 2.0
-parent: 2022
+parent: "2022"
 grand_parent: Exhibitions
 child_nav_order: desc
 ---

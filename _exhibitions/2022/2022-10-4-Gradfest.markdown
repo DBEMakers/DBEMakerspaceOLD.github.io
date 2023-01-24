@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Gradfest 2022
-parent: 2022
+parent: "2022"
 grand_parent: Exhibitions
 child_nav_order: desc
 ---
